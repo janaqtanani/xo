@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <title>XO play</title>
+        <style>
+            table ,td,tr{
+                border: 3px solid black;
+                border-collapse: collapse;
+                text-align: center;
+               
+            }
+            .r{
+                background-color: #c6d9ec;
+            }
+            .i{
+                background-color: #b3cce6;
+            }
+            .b{
+                background-color: #8cb3d9;
+            }
+            .c{
+                background-color: #4080bf;
+            }
+            .icon{
+                float: left;
+            }
+            .o{
+              border: 1px solid;
+                width: 10%;
+            }
+            .x{
+
+               visibility: show;
+                  }
+           .o{
+            visibility: hidden;
+          
+           }
+           
+           .x:active{
+            visibility: hidden;
+           }
+           .x:active + .o{
+              visibility:visible;
+           }
+           button{
+            border: none;
+           }
+        </style>
+    </head>
+    <body>
+        
+        <center>
+        <table width="50%" height="50%" style="margin-top: 10%;">
+     <tr>
+          <td class="r"> <button class="x"><i class="fa-solid fa-x"></i></button>  <button class="o"><i class="fa-solid fa-o"></i></button></td>
+          <td class="i" ><button class="x"><i class="fa-solid fa-x"></i></button>  <button class="o"><i class="fa-solid fa-o"></i></button></td>
+          <td class="b"><button class="x"><i class="fa-solid fa-x"></i></button>  <button class="o"><i class="fa-solid fa-o"></i></button></td>
+           <td class="c" ><button class="x"><i class="fa-solid fa-x"></i></button>  <button class="o"><i class="fa-solid fa-o"></i></button></td>
+         </tr>
+
+
+    <tr>
+         <td class="r"><button class="x"><i class="fa-solid fa-x"></i></button>  <button class="o"><i class="fa-solid fa-o"></i></button></td> 
+         <td class="i"><button class="x"><i class="fa-solid fa-x"></i></button>  <button class="o"><i class="fa-solid fa-o"></i></button></td> 
+         <td class="b"><button class="x"><i class="fa-solid fa-x"></i></button>  <button class="o"><i class="fa-solid fa-o"></i></button></td>
+         <td class="c"><button class="x"><i class="fa-solid fa-x"></i></button>  <button class="o"><i class="fa-solid fa-o"></i></button></td>
+             </tr>
+    <tr> 
+                <td class="r"><button class="x"><i class="fa-solid fa-x"></i></button>  <button class="o"><i class="fa-solid fa-o"></i></button></td> 
+                <td  class="i"><button class="x"><i class="fa-solid fa-x"></i></button>  <button class="o"><i class="fa-solid fa-o"></i></button></td>
+                <td class="b" ><button class="x"><i class="fa-solid fa-x"></i></button>  <button class="o"><i class="fa-solid fa-o"></i></button></td>
+                <td class="c" ><button class="x"><i class="fa-solid fa-x"></i></button>  <button class="o"><i class="fa-solid fa-o"></i></button></td>
+            </tr>
+    <tr>
+                   <td class="r" ><button class="x"><i class="fa-solid fa-x"></i></button>  <button class="o"><i class="fa-solid fa-o"></i></button></td> 
+                    <td class="i" ><button class="x"><i class="fa-solid fa-x"></i></button>  <button class="o"><i class="fa-solid fa-o"></i></button></td>
+                    <td class="b" ><button class="x"><i class="fa-solid fa-x"></i></button>  <button class="o"><i class="fa-solid fa-o"></i></button></td>
+                    <td class="c"><button class="x"><i class="fa-solid fa-x"></i></button>  <button class="o"><i class="fa-solid fa-o"></i></button></td>
+                    </tr>
+        </table>
+        <div class="icon">
+            <i class="fa-solid fa-x"></i>  
+            <i class="fa-solid fa-o"></i>
+        </div>
+    </center>
+    </body>
+</html>
